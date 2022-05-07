@@ -14,6 +14,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -25,6 +27,8 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     Grafica1Component,
     PagesComponent,
     AccountSettingComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
@@ -32,6 +36,8 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     Grafica1Component,
     PagesComponent,
     AccountSettingComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
@@ -39,6 +45,7 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     SharedModule,
     RouterModule,
     ComponentsModule,
+
   ]
 })
 export class PagesModule { }
